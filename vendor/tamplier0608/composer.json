@@ -1,0 +1,24 @@
+{
+    "name": "tamplier0608/simple_orm",
+    "description" : "If you want to use ORM but Doctrine is too big and heavy for you, this small ORM system is what you need!",
+    "keywords" : ["simple, ORM, database"],
+    "homepage" : "https://github.com/tamplier0608/SimpleORM",
+    "type" : "library",
+    "license": "GPLV2",
+    "authors": [
+        {
+            "name": "Serhii Kukunin",
+            "email": "serhii.kukunin@gmail.com"
+        }
+    ],
+    "version" : "0.9",
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">5.4"
+    },
+    "autoload" : {
+        "psr-0": {
+            "ORM" : "/src"
+        }
+    }
+}
